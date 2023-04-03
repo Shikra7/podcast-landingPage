@@ -1,0 +1,207 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header styles */
+
+header {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #f00;
+}
+
+/* Hero section styles */
+
+.hero {
+  background-color: #ddd;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  font-size: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.episode {
+  padding: 80px 0;
+}
+
+.episode-info {
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.episode-info h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.episode-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.episode-info p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.episode-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.episode-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.episode-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.episode-list li {
+  margin-bottom: 10px;
+}
+
+.about {
+  padding: 80px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Sponsors section styles */
+
+.sponsors {
+  padding: 80px 0;
+}
+
+.sponsors h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.sponsors p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Contact section styles */
+
+.contact {
+  padding: 80px 0;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Additional content section styles */
+.additional-content {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.additional-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.additional-content p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Footer section styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
